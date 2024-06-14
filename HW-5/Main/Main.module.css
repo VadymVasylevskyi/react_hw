@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.main {
+    background-color: #0c0417;
+    min-height: 100%;
+    overflow-x: auto;
+    height: 100vh;
+    color: #1ed760;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.sign {
+    font-size: 32px;
+    max-width: 180px;
+    text-align: center;
+}

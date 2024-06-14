@@ -1,0 +1,13 @@
+.button {
+    margin: 7px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s, box-shadow 0.5s ease, filter 0.3s ease;
+    border-radius: 15px;
+}
+
+.button:hover {
+    top: -10px;
+    box-shadow: green 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    filter: brightness(0.5) saturate(3) hue-rotate(100deg);
+}
